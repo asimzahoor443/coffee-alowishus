@@ -12,10 +12,7 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Popover,
-  PopoverButton,
   PopoverGroup,
-  PopoverPanel,
 } from '@headlessui/react';
 
 {
@@ -127,10 +124,10 @@ const Header = () => {
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             <ShoppingBagIcon
               width={40}
-              className="hover:cursor-pointer bg-gray-900 p-2 text-white rounded-full shadow-lg"
+              className="hover:cursor-pointer bg-gray-900 p-2 text-white rounded-full shadow-lg hover:scale-105 transition-all"
             />
           </a>
-          <button className="bg-gray-900 text-white p-3 rounded-md shadow-lg">
+          <button className="bg-gray-900 text-white p-3 rounded-md shadow-lg hover:scale-105 transition-all">
             Buy Gift Vouchers
           </button>
         </div>
