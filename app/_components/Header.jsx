@@ -107,24 +107,24 @@ const Header = () => {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg font-medium text-gray-900">
             Cafe Menu
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg font-medium text-gray-900">
             About Us
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg font-medium text-gray-900">
             Find Us
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg font-medium text-gray-900">
             lowishus Catering
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-5">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-sm font-semibold text-gray-900 leading-6">
             <ShoppingBagIcon
-              width={40}
-              className="hover:cursor-pointer bg-gray-900 p-2 text-white rounded-full shadow-lg hover:scale-105 transition-all"
+              width={35}
+              className="hover:cursor-pointer bg-gray-50 hover:bg-gray-100 p-2 rounded-full shadow-lg shadow-gray-300 hover:scale-105 transition-all"
             />
           </a>
           <button className="bg-gray-900 text-white p-3 rounded-md shadow-lg hover:scale-105 transition-all">
