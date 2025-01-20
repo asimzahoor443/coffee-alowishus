@@ -14,7 +14,6 @@ const Banner = () => {
   return (
     <>
       <div className="container">
-        <div></div>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
