@@ -18,7 +18,7 @@ const Banner = () => {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 3000,
+            delay: 300000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -27,9 +27,28 @@ const Banner = () => {
           modules={[Autoplay, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide>
+            <div className="container">
+              {/***** ******/}
+              <div className="grid grid-cols-2">
+                {/***** ******/}
+                <div className="">
+                  <div className="h1"></div>
+                  <p></p>
+                  {/***** ******/}
+                  <di className="">
+                    <button></button>
+                    <button></button>
+                  </di>
+                </div>
+                {/***** ******/}
+                <div className="">ErickTrump</div>
+              </div>
+              {/***** ******/}
+            </div>
+          </SwiperSlide>
+          {/* <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide> */}
         </Swiper>
       </div>
     </>
