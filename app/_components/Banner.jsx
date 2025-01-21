@@ -7,8 +7,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import CafePic from '@/public/assests/cafe.png';
+import { Button } from '@/components/ui/button';
 import { Autoplay, Pagination } from 'swiper/modules';
+import Image from 'next/image';
 
 const Banner = () => {
   return (
@@ -33,13 +35,34 @@ const Banner = () => {
               <div className="grid grid-cols-2">
                 {/***** ******/}
                 <div className="">
-                  <div className="h1"></div>
-                  <p></p>
                   {/***** ******/}
-                  <di className="">
-                    <button></button>
-                    <button></button>
-                  </di>
+                  <h1>
+                    Alowishus Delicious Coffee
+                    <Image
+                      // src="/public/assests/cafe.png"
+                      src={CafePic}
+                      width={80}
+                      height={80}
+                      alt="cafe image"
+                    />
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusantium, suscipit ipsam! Ut, in! Ea dolor quos amet
+                    maiores id quasi!
+                  </p>
+                  {/***** ******/}
+                  <div className="flex gap-4 py-6">
+                    <Button className="p-7 rounded-md shadow-lg hover:scale-105 transition-all text-lg font-normal tracking-wide">
+                      Download App
+                    </Button>
+                    <Button
+                      className="p-7 rounded-md shadow-lg hover:scale-105 transition-all text-lg font-normal tracking-wide"
+                      variant="outline"
+                    >
+                      Shop Coffee
+                    </Button>
+                  </div>
                 </div>
                 {/***** ******/}
                 <div className="">ErickTrump</div>
