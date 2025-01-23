@@ -34,19 +34,22 @@ const Banner = () => {
               {/***** ******/}
               <div className="grid grid-cols-2">
                 {/***** ******/}
-                <div className="">
+                <div className="relative">
                   {/***** ******/}
-                  <h1>
+                  <h1 className="text-7xl font-bold py-4">
                     Alowishus Delicious Coffee
-                    <Image
-                      // src="/public/assests/cafe.png"
-                      src={CafePic}
-                      width={80}
-                      height={80}
-                      alt="cafe image"
-                    />
+                    <div className="absolute top-40 right-40">
+                      <Image
+                        // src="/public/assests/cafe.png"
+                        src={CafePic}
+                        width={80}
+                        height={80}
+                        alt="cafe image"
+                      />
+                      <div></div>
+                    </div>
                   </h1>
-                  <p>
+                  <p className="py-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Accusantium, suscipit ipsam! Ut, in! Ea dolor quos amet
                     maiores id quasi!

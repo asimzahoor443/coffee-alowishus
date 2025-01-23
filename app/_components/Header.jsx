@@ -85,7 +85,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white container">
+    <header className="bg-white ">
       <nav
         aria-label="Global"
         className="mx-auto flex items-center justify-between py-6"
