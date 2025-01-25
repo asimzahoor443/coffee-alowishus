@@ -46,7 +46,6 @@ const Banner = () => {
                         height={80}
                         alt="cafe image"
                       />
-                      <div></div>
                     </div>
                   </h1>
                   <p className="py-4">
