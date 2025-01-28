@@ -38,7 +38,7 @@ const Banner = () => {
                   {/***** ******/}
                   <h1 className="text-7xl font-bold py-4">
                     Alowishus Delicious Coffee
-                    <div className="absolute top-40 right-40">
+                    <div className="absolute top-40 right-44">
                       <Image
                         // src="/public/assests/cafe.png"
                         src={CafePic}
